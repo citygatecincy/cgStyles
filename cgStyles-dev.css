@@ -1,0 +1,14 @@
+/* Font's */
+.cgStyle-font{font-family: Arial, Helvetica, sans-serif;}
+
+/* Font Styling */
+.bold{ font-weight: bold; }
+.normal{ font-weight: normal; }
+.light{ font-weight: lighter; }
+.italic{ font-style: italic;}
+
+/* Alignment */
+.ctr{text-align: center;}
+.left{text-align: left;}
+.right{text-align: left;}
+
