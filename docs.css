@@ -1,0 +1,35 @@
+* {box-sizing: border-box; margin: 0 auto; padding: 0 auto;}
+body { 
+    overflow: hidden;
+    color: #fff;
+    background: rgb(000, 000, 000); 
+    background: url("./main.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.main{
+    margin-top: 350px;
+    margin-left: 150px;
+    position: absolute;
+    z-index: 1;
+}
+
+.main > h1{
+    font-size: 2.5em; 
+}
+
+.main > p{
+    margin-top: 25px;
+    width: 500px;
+    line-height: 1.8em;
+}
+
+.overlay{
+    background: #000;
+    width: 5000px;
+    height: 5000px;
+    overflow: none;
+    position: fixed;
+    opacity: .44;
+}
